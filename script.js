@@ -24,6 +24,11 @@ startButton.addEventListener("click", async () => {
     cakeHolder.style.transition = "opacity 1s ease-in";
     cakeHolder.style.opacity = "1";
 
+    // show "Blow the candle"
+    const msg = document.getElementById("blow-instruction");
+    msg.classList.remove("hidden");
+    setTimeout(() => msg.classList.add("show"), 50);
+
     // get mic
     micStream = await navigator.mediaDevices.getUserMedia({ audio: true });
 
