@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Birthday Cake 🎂</title>
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="text-center">
+  <h1>It's a gator's birthday!</h1>
+  <br>
+  <button id="start">START</button>
+  <br>
+  <br>
+  <div id="cake-holder" style="opacity: 0">
+    <div class="cake">
+      <div class="plate"></div>
+      <div class="layer layer-bottom"></div>
+      <div class="layer layer-middle"></div>
+      <div class="layer layer-top"></div>
+      <div class="icing"></div>
+      <div class="drip drip1"></div>
+      <div class="drip drip2"></div>
+      <div class="drip drip3"></div>
+
+      <!-- TEN CANDLES – SAME STRUCTURE, EXTRA CLASS PER CANDLE -->
+      <div class="candle candle1"><div class="flame"></div></div>
+      <div class="candle candle2"><div class="flame"></div></div>
+      <div class="candle candle3"><div class="flame"></div></div>
+      <div class="candle candle4"><div class="flame"></div></div>
+      <div class="candle candle5"><div class="flame"></div></div>
+      <div class="candle candle6"><div class="flame"></div></div>
+      <div class="candle candle7"><div class="flame"></div></div>
+      <div class="candle candle8"><div class="flame"></div></div>
+      <div class="candle candle9"><div class="flame"></div></div>
+      <div class="candle candle10"><div class="flame"></div></div>
+    </div>
+
+    <!--div class="text-center">
+      <h4 class="cake-off">Happy Birthday Dude</h4>
+      <p class="cake-off">Wish you best</p>
+    </div-->
+  </div>
+
+  <!-- OVERLAY AFTER BLOW -->
+  <div id="overlay" class="overlay hidden">
+    <div class="overlay-content">
+      <h1>Happy birthday, Maingator! 🐊</h1>
+      <h3>Make a wish in... <span id="countdown">3</span></h3>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

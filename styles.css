@@ -1,0 +1,339 @@
+body {
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Inter, Arial, sans-serif !important;
+  background-color: black;
+  color: white;
+}
+
+button {
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Inter, Arial, sans-serif;
+  background: #1b1b1b;
+  color: #eee;
+  padding: 14px 28px;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  transition: background 0.18s ease, border-color 0.18s ease, opacity 0.18s ease;
+}
+
+button:hover {
+  background: #242424;
+  border-color: #3a3a3a;
+}
+
+button:active {
+  background: #2d2d2d;
+  border-color: #444;
+  opacity: 0.85;
+}
+
+button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+#overlay h1 {
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+#overlay p {
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  opacity: 0.92;
+}
+
+#countdown {
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: -0.4px;
+}
+
+#start {
+  background-color: green
+}
+
+#startconsoledebug {
+  background-color: yellow
+}
+
+#stopconsoledebug {
+  background-color: orange
+}
+
+#microphonestatus,
+#audiostatus,
+#recording {
+  font-size: 36px;
+  font-family: 'courier';
+  background-color: black;
+  color: white;
+}
+
+td,
+th {
+  border: 1px solid;
+  text-align: left;
+  padding: 10px;
+}
+
+body {
+  background-color: #333;
+}
+
+.cake {
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  margin-top: -70px;
+  margin-left: -125px;
+}
+
+.plate {
+  width: 270px;
+  height: 110px;
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  box-shadow: 0 2px 0 #b3b3b3, 0 4px 0 #b3b3b3, 0 5px 40px rgba(0, 0, 0, 0.5);
+}
+
+.cake > * {
+  position: absolute;
+}
+
+.layer {
+  position: absolute;
+  display: block;
+  width: 250px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #553c13;
+  box-shadow: 0 2px 0px #6a4b18, 0 4px 0px #33240b, 0 6px 0px #32230b, 0 8px 0px #31230b, 0 10px 0px #30220b, 0 12px 0px #2f220b, 0 14px 0px #2f210a, 0 16px 0px #2e200a, 0 18px 0px #2d200a, 0 20px 0px #2c1f0a, 0 22px 0px #2b1f0a, 0 24px 0px #2a1e09, 0 26px 0px #2a1d09, 0 28px 0px #291d09, 0 30px 0px #281c09;
+}
+
+.layer-top {
+  top: 0px;
+}
+
+.layer-middle {
+  top: 33px;
+}
+
+.layer-bottom {
+  top: 66px;
+}
+
+.icing {
+  top: 2px;
+  left: 5px;
+  background-color: #f0e4d0;
+  width: 240px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.icing:before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  bottom: 6px;
+  left: 5px;
+  background-color: #f4ebdc;
+  box-shadow: 0 0 4px #f6efe3, 0 0 4px #f6efe3, 0 0 4px #f6efe3;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.drip {
+  display: block;
+  width: 50px;
+  height: 60px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: #f0e4d0;
+}
+
+.drip1 {
+  top: 53px;
+  left: 5px;
+  transform: skewY(15deg);
+  height: 48px;
+  width: 40px;
+}
+
+.drip2 {
+  top: 69px;
+  left: 181px;
+  transform: skewY(-15deg);
+}
+
+.drip3 {
+  top: 54px;
+  left: 90px;
+  width: 80px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.candle {
+  background-color: #7b020b;
+  width: 16px;
+  height: 50px;
+  border-radius: 8px / 4px;
+  top: -20px;
+  left: 50%;
+  margin-left: -8px;
+  z-index: 10;
+}
+
+.candle:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ad030f;
+}
+
+.flame {
+  position: absolute;
+  background-color: orange;
+  width: 15px;
+  height: 35px;
+  border-radius: 10px 10px 10px 10px / 25px 25px 10px 10px;
+  top: -34px;
+  left: 50%;
+  margin-left: -7.5px;
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(255, 165, 0, 0.5), 0 0 20px rgba(255, 165, 0, 0.5), 0 0 60px rgba(255, 165, 0, 0.5), 0 0 80px rgba(255, 165, 0, 0.5);
+  transform-origin: 50% 90%;
+  animation: flicker 1s ease-in-out alternate infinite;
+}
+
+@keyframes flicker {
+  0% {
+    transform: skewX(5deg);
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.2), 0 0 20px rgba(255, 165, 0, 0.2), 0 0 60px rgba(255, 165, 0, 0.2), 0 0 80px rgba(255, 165, 0, 0.2);
+  }
+  25% {
+    transform: skewX(-5deg);
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.5), 0 0 20px rgba(255, 165, 0, 0.5), 0 0 60px rgba(255, 165, 0, 0.5), 0 0 80px rgba(255, 165, 0, 0.5);
+  }
+  50% {
+    transform: skewX(10deg);
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.3), 0 0 20px rgba(255, 165, 0, 0.3), 0 0 60px rgba(255, 165, 0, 0.3), 0 0 80px rgba(255, 165, 0, 0.3);
+  }
+  75% {
+    transform: skewX(-10deg);
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.4), 0 0 20px rgba(255, 165, 0, 0.4), 0 0 60px rgba(255, 165, 0, 0.4), 0 0 80px rgba(255, 165, 0, 0.4);
+  }
+  100% {
+    transform: skewX(5deg);
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.5), 0 0 20px rgba(255, 165, 0, 0.5), 0 0 60px rgba(255, 165, 0, 0.5), 0 0 80px rgba(255, 165, 0, 0.5);
+  }
+}
+
+#cake-holder .cake-off {
+  opacity: 0;
+  transition: 1s ease-in all;
+}
+
+#cake-holder.done .cake-off {
+  opacity: 1;
+  transition: 1s ease-in all;
+}
+
+#cake-holder .cake .flame {
+  opacity: 1;
+  transition: 0.3s ease-in all;
+}
+
+#cake-holder.done .flame {
+  opacity: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* CANDLES */
+
+#cake-holder .cake .candle {
+  position: absolute;
+}
+
+/* back row*/
+.candle3  { left: 79px;  top: -26px; z-index: 5; }
+.candle4  { left: 131px; top: -36px; z-index: 5; }
+.candle5  { left: 183px; top: -26px; z-index: 5; }
+
+/* mid row */
+.candle2  { left: 55px;  top: -16px; z-index: 8; }
+.candle6  { left: 203px; top: -16px; z-index: 8; }
+
+/* front row */
+.candle1  { left: 39px;  top: 12px; z-index: 12; }
+.candle10 { left: 81px;  top: 20px; z-index: 12; }
+.candle9  { left: 123px; top: 26px; z-index: 12; } /* center, most forward */
+.candle8  { left: 165px; top: 20px; z-index: 12; }
+.candle7  { left: 207px; top: 12px; z-index: 12; }
+
+/* flames inherit depth */
+.candle .flame {
+  z-index: inherit;
+}
+
+/* OVERLAY FOR REDIRECT */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.86);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.overlay.hidden {
+  display: none;
+}
+
+.overlay-content h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.overlay-content p {
+  font-size: 1.2rem;
+}
+
+/* FIX Z-INDEX SO OVERLAY COVERS EVERYTHING */
+.overlay {
+  z-index: 9999 !important;
+}
+
+/* overlay font*/
+#overlay,
+#overlay * {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Inter, Arial, sans-serif !important;
+}
+
+/* global style override */
+html, body, *, *::before, *::after {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Inter, Arial, sans-serif !important;
+}
