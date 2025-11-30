@@ -91,7 +91,7 @@ function showOverlayAndRedirect() {
 
   overlay.classList.remove("hidden");
 
-  let remaining = 3;
+  let remaining = 5;
   countdownEl.textContent = remaining.toString();
 
   const timer = setInterval(() => {
