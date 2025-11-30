@@ -1,5 +1,5 @@
 // CONFIG
-const REDIRECT_URL = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+const REDIRECT_URL = "https://music.youtube.com/watch?v=lYBUbBu4W08";
 const BLOW_THRESHOLD = 0.22;   // sensitivity
 const SAMPLE_INTERVAL = 80;    // ms
 
