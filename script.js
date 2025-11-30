@@ -78,7 +78,7 @@ function onBlow() {
     micStream.getTracks().forEach(t => t.stop());
   }
 
-  // use original behaviour: add 'done' to cake-holder
+  // add 'done' to cake-holder
   cakeHolder.classList.add("done");
 
   // show overlay + redirect
