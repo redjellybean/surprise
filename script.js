@@ -1,5 +1,5 @@
 // CONFIG
-const REDIRECT_URL = "https://music.youtube.com/watch?v=lYBUbBu4W08";
+const REDIRECT_URL = "https://soundcloud.com/rick-astley-official/never-gonna-give-you-up-4";
 const BLOW_THRESHOLD = 0.22;   // sensitivity
 const SAMPLE_INTERVAL = 80;    // ms
 
@@ -91,7 +91,7 @@ function showOverlayAndRedirect() {
 
   overlay.classList.remove("hidden");
 
-  let remaining = 5;
+  let remaining = 6;
   countdownEl.textContent = remaining.toString();
 
   const timer = setInterval(() => {
